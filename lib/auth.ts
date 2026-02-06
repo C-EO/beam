@@ -76,7 +76,8 @@ export const authOptions: NextAuthOptions = {
   ],
   callbacks: {
     async signIn({ user, account, profile }) {
-      if (profile.notAllowed) {
+      // Set by the GitHub flow if the user does not belong to the GITHUB_ALLOWED_ORG
+      if ((profile as { notAllowed?: boolean }).notAllowed) {
         return false
       }
 
