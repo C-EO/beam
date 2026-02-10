@@ -85,3 +85,28 @@
     :why:
     :versions: []
     :when: 2022-06-15 13:57:00.568752000 Z
+- - :approve
+  - argparse
+  - &1
+    :who: license_finder resolution
+    :why: Approved permissive/open source licenses for transitive dependencies
+    :versions: []
+    :when: 2026-02-10 18:27:00.096265000 Z
+- - :approve
+  - axe-core
+  - *1
+- - :approve
+  - big-integer
+  - *1
+- - :approve
+  - caniuse-lite
+  - *1
+- - :approve
+  - language-subtag-registry
+  - *1
+- - :approve
+  - mousetrap
+  - *1
+- - :approve
+  - tslib
+  - *1

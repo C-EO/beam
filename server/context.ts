@@ -8,7 +8,7 @@ export const createContext = async ({
   req,
   res,
 }: trpcNext.CreateNextContextOptions) => {
-  const session = await getServerSession({ req, res }, authOptions)
+  const session = await getServerSession(req, res, authOptions)
 
   return {
     req,
