@@ -107,7 +107,7 @@ export function PostSummary({
                 side="bottom"
                 sideOffset={4}
                 className={classNames(
-                  'max-w-[260px] px-3 py-1.5 rounded shadow-lg bg-secondary-inverse text-secondary-inverse sm:max-w-sm',
+                  'max-w-[260px] px-3 py-1.5 rounded shadow-lg bg-secondary-inverse text-secondary-inverse sm:max-w-sm z-10',
                   likeCount === 0 && 'hidden'
                 )}
               >
